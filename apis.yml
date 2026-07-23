@@ -1,8 +1,34 @@
 aid: asylon
 name: Asylon
-description: Asylon is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Asylon Robotics is an American-made robotic security company founded in 2015
+  and headquartered in Norristown, Pennsylvania, that automates physical
+  perimeter security with autonomous drones, ground robots, software, and AI.
+  Its flagship products include the Guardian automated security drone (the most
+  widely used automated security drone system, with tens of thousands of patrol
+  and alarm-response missions completed), the DroneDog quadruped ground robot
+  built on Boston Dynamics Spot with the Asylon DogHouse charging enclosure and
+  PupPack cellular PTZ payload, and DroneIQ, the Robotic Security Operations
+  Center (RSOC) and software platform that coordinates robotic assets, fixed
+  surveillance, and human operators. DroneIQ exposes an open-architecture
+  integration layer for third-party alarms and sensors (radar, smart fences,
+  Bosch alarm panels, gun-detection computer vision, Genetec), but the company
+  publishes no public developer portal, OpenAPI specification, or SDKs; API and
+  integration access is arranged directly with Asylon. Asylon raised a $26M
+  Series B in July 2025 led by Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/asylon/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://asylonrobotics.com/wp-content/uploads/2026/01/DSC04472-Large.jpeg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Robotics
+- Physical Security
+- Drones
+- Autonomous Systems
+- Surveillance
+- Artificial Intelligence
+- Critical Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/asylon-domain-security.yml
 - type: Website
   url: https://asylonrobotics.com/
+- type: Blog
+  url: https://asylonrobotics.com/resources/blog/
+- type: PrivacyPolicy
+  url: https://asylonrobotics.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/AsylonRobotics
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
